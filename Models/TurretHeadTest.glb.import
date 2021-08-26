@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/TurretHeadTest1.glb-472a47f5e32237489978d2a6faa2e61a.scn"
+path="res://.import/TurretHeadTest.glb-d35d55ce244d023c5dd69621656eb7e7.scn"
 
 [deps]
 
-source_file="res://Models/TurretHeadTest1.glb"
-dest_files=[ "res://.import/TurretHeadTest1.glb-472a47f5e32237489978d2a6faa2e61a.scn" ]
+source_file="res://Models/TurretHeadTest.glb"
+dest_files=[ "res://.import/TurretHeadTest.glb-d35d55ce244d023c5dd69621656eb7e7.scn" ]
 
 [params]
 
@@ -17,7 +17,7 @@ nodes/root_scale=1.0
 nodes/custom_script=""
 nodes/storage=0
 nodes/use_legacy_names=false
-materials/location=1
+materials/location=0
 materials/storage=1
 materials/keep_on_reimport=true
 meshes/compress=true

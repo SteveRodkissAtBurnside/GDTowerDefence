@@ -11,6 +11,7 @@ config_version=4
 [application]
 
 config/name="GDTowers"
+run/main_scene="res://Scenes/TurretTestScene.tscn"
 config/icon="res://icon.png"
 
 [physics]
