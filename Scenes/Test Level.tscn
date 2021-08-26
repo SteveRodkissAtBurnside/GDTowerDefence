@@ -1,0 +1,32 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Models/World Building/Hex Tile 1.tscn" type="PackedScene" id=1]
+
+[node name="Spatial" type="Spatial"]
+
+[node name="Hex Tile 7" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 11.7563, 0.550353, -2.75262 )
+
+[node name="Hex Tile 6" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.0243, 0.550353, -2.75262 )
+
+[node name="Hex Tile 5" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 8.39524, 0.945719, -1.09722 )
+
+[node name="Hex Tile 12" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 37.1315, 2.75176, -21.2631 )
+
+[node name="Hex Tile 11" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 29.7052, 2.20141, -17.0105 )
+
+[node name="Hex Tile 10" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 22.2789, 1.65106, -12.7579 )
+
+[node name="Hex Tile 9" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 14.8526, 1.10071, -8.50524 )
+
+[node name="Hex Tile 8" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 7.4263, 0.550353, -4.25262 )
+
+[node name="Hex Tile 4" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.5603, 0.550353, -2.75262 )

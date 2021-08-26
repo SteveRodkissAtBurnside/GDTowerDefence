@@ -8,11 +8,25 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "ImmediateGeometry",
+"class": "Magnet",
+"language": "GDScript",
+"path": "res://addons/vertexsnap/magnet.gd"
+} ]
+_global_script_class_icons={
+"Magnet": "res://addons/vertexsnap/magnet.png"
+}
+
 [application]
 
 config/name="GDTowers"
 run/main_scene="res://Scenes/TurretTestScene.tscn"
 config/icon="res://icon.png"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/vertexsnap/plugin.cfg" )
 
 [physics]
 
